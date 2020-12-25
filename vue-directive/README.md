@@ -1,11 +1,13 @@
 采用原型开发
+https://cli.vuejs.org/zh/guide/prototyping.html
 
 ```
 $ vue serve
 ```
 
 > 参考
-> [https://cn.vuejs.org/v2/guide/custom-directive.html](https://cn.vuejs.org/v2/guide/custom-directive.html) > [8 个非常实用的 Vue 自定义指令](https://mp.weixin.qq.com/s/nBz1cxFWceU_txQhekBPZQ)
+> [https://cn.vuejs.org/v2/guide/custom-directive.html](https://cn.vuejs.org/v2/guide/custom-directive.html)
+> [8 个非常实用的 Vue 自定义指令](https://mp.weixin.qq.com/s/nBz1cxFWceU_txQhekBPZQ)
 
 几个实用的 Vue 自定义指令
 
