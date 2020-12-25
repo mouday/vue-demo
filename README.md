@@ -5,3 +5,4 @@
 | 文件名                           | 简介                               |
 | -------------------------------- | ---------------------------------- |
 | [vue-axios](vue-axios/README.md) | express+vue+axios 实现文件下载功能 |
+| [vue-directive](vue-directive/README.md) | vue常用指令实现Demo |
