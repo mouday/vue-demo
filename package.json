@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "name": "more-copy",
+    "version": "3.0.0",
+    "description": "copy template generate code file",
+    "dependencies": {},
+    "devDependencies": {
+      "prettier": "^2.8.0"
+    },
+    "keywords": [
+      "copy,generate,template,code,file,vue"
+    ],
+    "author": "Peng Shiyu",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mouday/more-copy.js"
+    },
+    "homepage": "https://github.com/mouday/more-copy.js",
+    "bugs": {
+      "url": "https://github.com/mouday/more-copy.js/issues"
+    },
+    "engines": {
+      "node": ">=8.0.0"
+    }
+}
