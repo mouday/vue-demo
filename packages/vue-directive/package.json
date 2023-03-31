@@ -5,10 +5,5 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "server": "nodemon server/main.js"
   },
-  "dependencies": {
-    "element-ui": "^2.14.1",
-    "file-saver": "^2.0.5",
-    "sass-loader": "^10.1.0",
-    "xlsx": "^0.16.9"
-  }
+  "dependencies": {}
 }

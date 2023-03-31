@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "more-copy",
+    "name": "vue-demo",
     "version": "3.0.0",
     "description": "copy template generate code file",
     "dependencies": {},
