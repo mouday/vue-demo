@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -20,15 +23,15 @@ jobs:
         with:
           node-version: 16
           
-      - name: Install pnpm
+      - name: Install pnpm with packages
         uses: pnpm/action-setup@v2.2.4
         with:
           version: 7
+          run_install: 
+            - recursive: true
+            - args: [--frozen-lockfile]
 
-      - name: Install deps
-        run: pnpm install --no-frozen-lockfile
-
-      - name: Publish package
+      - name: Build package
         run: pnpm run --filter vue-component build
 
       - name: Deploy 🚀
