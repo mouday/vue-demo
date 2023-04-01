@@ -29,7 +29,6 @@ jobs:
           version: 7
           run_install: 
             - recursive: true
-            - args: [--frozen-lockfile]
 
       - name: Build package
         run: pnpm run --filter vue-component build
