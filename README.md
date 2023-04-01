@@ -2,7 +2,8 @@
 
 一些基于 Vue2 实现功能的 Demo
 
-Github: https://github.com/mouday/Vue-Demo
+Github: https://github.com/mouday/vue-demo/
+在线演示：https://mouday.github.io/vue-demo/
 
 | 文件名   | 简介    | 在线Demo | 
 | -| -| - |
