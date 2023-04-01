@@ -34,6 +34,14 @@ jobs:
       - name: Build package
         run: pnpm run --filter vue-component build
 
+      - name: Overwrite file
+        uses: "DamianReeves/write-file-action@master"
+        with:
+          path: .gitignore
+          write-mode: overwrite
+          contents: |
+            node_modules/
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
