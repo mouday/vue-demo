@@ -1,0 +1,1 @@
+body{display:flex;justify-content:center}.app-container{text-align:center}.tabs{display:flex;justify-content:center;border:1px solid grey;border-bottom:none}.tab-item{width:200px;line-height:40px;text-align:center;background-color:grey;color:#fff;cursor:pointer}.tab-item--active{background-color:#fff;color:#000}.content{line-height:500px;text-align:center;border:1px solid grey}
