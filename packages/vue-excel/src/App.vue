@@ -1,5 +1,7 @@
 <template>
   <div class="container">
+    <h2>Excel上传下载</h2>
+    
     <div style="display:flex;">
       <el-upload
         ref="upload"
@@ -64,7 +66,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="less">
 body {
   background: #f4f4f4;
   padding: 0;

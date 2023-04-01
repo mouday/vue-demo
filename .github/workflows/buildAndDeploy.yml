@@ -32,7 +32,7 @@ jobs:
         run: pnpm install --no-frozen-lockfile
 
       - name: Build package
-        run: pnpm run --filter vue-component build
+        run: pnpm run build
 
       - name: Overwrite file
         uses: "DamianReeves/write-file-action@master"
