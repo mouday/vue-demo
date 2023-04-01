@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: 16
           
-      - name: Install pnpm with packages
+      - name: Install pnpm
         uses: pnpm/action-setup@v2.2.4
         with:
           version: 7
