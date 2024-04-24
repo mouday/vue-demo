@@ -1,4 +1,5 @@
 {
+  "name": "vue-image-preview",
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build"
