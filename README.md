@@ -13,3 +13,4 @@
 | [vue-component](packages/vue-component/README.md) | 动态组件vue-component | [查看](https://mouday.github.io/vue-demo/packages/vue-component/dist/index.html) | 
 | [china-map](packages/vue-component/README.md) | 中国地图 | [查看](https://mouday.github.io/vue-demo/packages/china-map/dist/index.html) | 
 | [vue-image-preview](packages/vue-component/README.md) | 图片预览 | [查看](https://mouday.github.io/vue-demo/packages/vue-image-preview/dist/index.html) | 
+| [vue-mo-tab](packages/vue-mo-tab/README.md) | Tab切换 | [查看](https://mouday.github.io/vue-demo/packages/vue-mo-tab/dist/index.html) | 
