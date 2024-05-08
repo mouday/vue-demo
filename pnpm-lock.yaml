@@ -146,6 +146,21 @@ importers:
       less-loader: 8.1.1_less@4.1.3
       vue-template-compiler: 2.7.14
 
+  packages/vue-mo-tab:
+    specifiers:
+      '@vue/cli-service': ^5.0.8
+      less: ^4.0.0
+      less-loader: ^8.0.0
+      vue: ^2.6.14
+      vue-template-compiler: ^2.6.14
+    dependencies:
+      vue: 2.7.14
+    devDependencies:
+      '@vue/cli-service': 5.0.8_mxbc62bdsifu6h664fseyklsqu
+      less: 4.1.3
+      less-loader: 8.1.1_less@4.1.3
+      vue-template-compiler: 2.7.14
+
 packages:
 
   /@achrinza/node-ipc/9.2.6:

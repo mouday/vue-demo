@@ -1,0 +1,29 @@
+.mo-tab {
+  display: flex;
+  margin-left: 20px;
+}
+
+.mo-tab__item {
+  position: relative;
+  padding: 0 10px;
+  line-height: 30px;
+  font-size: 13px;
+  color: #666;
+  cursor: pointer;
+}
+
+.mo-tab__item:hover,
+.mo-tab__item--active {
+  color: #111;
+}
+
+.mo-tab__item--active::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  background-color: #6833cf;
+}
